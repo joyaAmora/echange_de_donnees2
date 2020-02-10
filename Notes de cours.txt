@@ -1,0 +1,9 @@
+scanf
+    fscanf (fichierouUnite ,"%c", &car) unité logique, format, variable
+    sscanf (chaine ,"%c%c", &car1, &car2) lis 2 caractères collés
+    -->si on met "%*c" pour ne pas tenir compte du ENTER entre les 2 caractères
+
+printf
+    fprintf (fichierouUnite ,"info:%c\n", car) unité logique, fomatage type de donnees retour de ligne, variable
+    sprintf (chaine ,"A:%c\n, B:%c\n", car1, car2)
+
